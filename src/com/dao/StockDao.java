@@ -19,7 +19,7 @@ public class StockDao {
 		String sql ;
 		try {
 		
-			sql = "select * from d_Stock";
+			sql = "select * from d_stock";
 			test = qr.query(sql, new BeanListHandler <Stock>(Stock.class));
 		
 		}catch(SQLException e) {
